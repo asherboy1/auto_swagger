@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Test Report</title>
+    <meta name="generator" content="HTMLTestRunner 1.0.15"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class='heading'>
+    <h1 style="margin-left:1ex;">Unit Test Report</h1>
+    
+    <p class='attribute'><strong>Start Time : </strong> 2021-09-29 16:21:33</p>
+    
+    <p class='attribute'><strong>Duration : </strong> 0:00:00.276065</p>
+    
+    <p class='attribute'><strong>Status : </strong> Pass 1 Failure 6</p>
+    
+    <p class='attribute'><strong>Descrition : </strong> Test report generation using HTMLTestRunner-rv</p>
+    
+</div>
+<div>
+    <p id='show_detail_line'><b>Show</b>
+        <button><a href='javascript:showCase(0)' style="color:#660066;">Summary</a></button>
+        <button><a href='javascript:showCase(1)' style="color:#660066;">Failed</a></button>
+        <button><a href='javascript:showCase(2)' style="color:#660066;">All</a></button>
+    </p>
+    <table id='result_table'>
+        <colgroup>
+            <col align='left'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+        </colgroup>
+        <tr id='header_row'>
+            <td>Test Group/Test case</td>
+            <td>Count</td>
+            <td>Pass</td>
+            <td>Fail</td>
+            <td>Error</td>
+            <td>View</td>
+        </tr>
+        
+        <tr class='failClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c1','6')">test_case.test_login.TestLogin</a></td>
+            <td>6</td>
+            <td>0</td>
+            <td>6</td>
+            <td>0</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c1','6')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+        
+        <tr id="ft1.1" class='none'>
+            <td class='failCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.1')">test_login_1_正确登录</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.1')" style="color:#660066;">
+                            FAIL
+                        </a></button>
+                    <div id='div_ft1.1' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.1').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:33.798753 : res:
+</pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "e:\python\sciyon_interface_test\libs\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "e:\python\sciyon_interface_test\test_case\test_login.py", line 69, in test_login
+    self.assertEqual(res, data_item['expected'])
+AssertionError: <Response [405]> != 11
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.2" class='none'>
+            <td class='failCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.2')">test_login_2_正确登录</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.2')" style="color:#660066;">
+                            FAIL
+                        </a></button>
+                    <div id='div_ft1.2' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.2').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:33.842606 : res:
+</pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "e:\python\sciyon_interface_test\libs\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "e:\python\sciyon_interface_test\test_case\test_login.py", line 69, in test_login
+    self.assertEqual(res, data_item['expected'])
+AssertionError: <Response [415]> != 11
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.3" class='none'>
+            <td class='failCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.3')">test_login_3_正确登录</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.3')" style="color:#660066;">
+                            FAIL
+                        </a></button>
+                    <div id='div_ft1.3' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.3').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:33.884145 : res:
+</pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "e:\python\sciyon_interface_test\libs\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "e:\python\sciyon_interface_test\test_case\test_login.py", line 69, in test_login
+    self.assertEqual(res, data_item['expected'])
+AssertionError: <Response [404]> != 11
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.4" class='none'>
+            <td class='failCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.4')">test_login_4_正确登录</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.4')" style="color:#660066;">
+                            FAIL
+                        </a></button>
+                    <div id='div_ft1.4' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.4').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:33.920048 : res:
+</pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "e:\python\sciyon_interface_test\libs\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "e:\python\sciyon_interface_test\test_case\test_login.py", line 69, in test_login
+    self.assertEqual(res, data_item['expected'])
+AssertionError: <Response [404]> != None
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.5" class='none'>
+            <td class='failCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.5')">test_login_5_正确登录</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.5')" style="color:#660066;">
+                            FAIL
+                        </a></button>
+                    <div id='div_ft1.5' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.5').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:33.961780 : res:
+</pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "e:\python\sciyon_interface_test\libs\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "e:\python\sciyon_interface_test\test_case\test_login.py", line 69, in test_login
+    self.assertEqual(res, data_item['expected'])
+AssertionError: <Response [404]> != None
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        <tr id="ft1.6" class='none'>
+            <td class='failCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_ft1.6')">test_login_6_正确登录</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.6')" style="color:#660066;">
+                            FAIL
+                        </a></button>
+                    <div id='div_ft1.6' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_ft1.6').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:33.997988 : res:
+</pre>
+                        <pre style="color: red;">Traceback (most recent call last):
+  File "e:\python\sciyon_interface_test\libs\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "e:\python\sciyon_interface_test\test_case\test_login.py", line 69, in test_login
+    self.assertEqual(res, data_item['expected'])
+AssertionError: <Response [404]> != 11
+</pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        
+        <tr class='passClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c2','1')">test_case.test_login1.TestLogin1</a></td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c2','1')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+        
+        <tr id="pt2.1" class='hiddenRow'>
+            <td class='passCase'>
+                <div class='testcase'>
+                    <a class="popup_link" onfocus='this.blur();'
+                       href="javascript:showTestDetail('div_pt2.1')">test_login1_1_登陆前</a>
+                </div>
+            </td>
+            <td colspan='5' align='center'>
+                <div>
+                    <!--css div popup start-->
+                    <button>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_pt2.1')" style="color:#660066;">
+                            PASS
+                        </a></button>
+                    <div id='div_pt2.1' class="popup_window">
+                        <div style='text-align: right; color:red;cursor:pointer'>
+                            <a onfocus='this.blur();'
+                               onclick="document.getElementById('div_pt2.1').style.display = 'none'; "
+                               style="color:red;">
+                                [x]</a>
+                        </div>
+                        <pre>2021-09-29 16:21:34.010953 : res:
+</pre>
+                        <pre style="color: red;"></pre>
+                    </div>
+                    <!--css div popup end-->
+                </div>
+            </td>
+        </tr>
+        
+        
+
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>7</td>
+            <td>1</td>
+            <td>6</td>
+            <td>0</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div id='ending'><b>Time Elapsed: </b>0:00:00.276065</div>
+</body>
+</html>
